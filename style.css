@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&family=Poppins:wght@100;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgba(238, 240, 116, 0.671), rgb(94, 58, 5));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 695px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mainWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+
+
+    width: 30%;
+    height: 55%;
+    background-color: #1A1F16;
+    border-radius: 20px;
+}
+
+
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: all ease 0.6s;
+}
+
+.logo img:hover {
+    transform: scale(1.2);
+}
+
+
+
+#render {
+
+    width: 320px;
+    height: 100px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+
+}
+
+.mainWrap button {
+    background-color: #D4F5F5;
+    /* Green */
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.title {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.title p {
+    animation-name: jump;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+
+
+
+@keyframes jump {
+    0% {
+        transform: scale(1.0);
+    }
+
+    50% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        transform: scale(1.0);
+    }
+}
