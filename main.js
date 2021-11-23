@@ -7,6 +7,7 @@ function getInfo() {
             render.textContent = dayMsg;
         })
         .catch(error => console.log(error))
+        
 }
 
 
