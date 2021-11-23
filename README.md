@@ -3,7 +3,7 @@
 ![Main project](project.jpg)
 
 
-## How to i create
+## How do i create
 
 This is my first, and _simple_, project consuming a **public API**, for this case i use [Adivice API](https://api.adviceslip.com/) and **AXIOS** client directly with your **CDN in HTML**
 
