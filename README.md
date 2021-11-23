@@ -1,4 +1,4 @@
-# Looky Cookie 🍪
+# Lucky Cookie 🍪
 
 ![Main project](project.jpg)
 
